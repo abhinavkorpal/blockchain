@@ -1,8 +1,8 @@
 # blockchain
-Note
+Notes
 
 
-What is P2PK, P2PKH, P2SH, P2WPKH ?
+### What is P2PK, P2PKH, P2SH, P2WPKH ?
 
 P2PKH: "Pay To Public Key Hash"
 This is how transactions are made. You are requiring the sender to supply a valid signature (from the private key) and public key. The transaction output script will use the signature and public key and through some cryptographic functions will check if it matches with the public key hash, if it does, then the funds will be spendable. This method conceals your public key in the form of a hash for extra security.
